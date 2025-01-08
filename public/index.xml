@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kalmai</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on kalmai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grokking Rails</title>
+      <link>http://localhost:1313/post/rails_deal_notifier/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/rails_deal_notifier/</guid>
+      <description>&lt;p&gt;Notify myself and other users who sign up when they can act upon free non-gambling related game-day promotions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.&#xA;Hugo makes use of a variety of open source projects including:&#xA;https://github.com/muesli/smartcrop https://github.</description>
+    </item>
+    <item>
+      <title>HOMEPAGE</title>
+      <link>http://localhost:1313/homepage/</link>
+      <pubDate>Sat, 17 Oct 2015 18:03:08 +0100</pubDate>
+      <guid>http://localhost:1313/homepage/</guid>
+      <description>THIS IS THE SUPER HOME PAGE Here is the homepage. It has type = &#34;homepage&#34; defined in the front-matter. The template being used to display this post on its own like this is in: /themes/skeletontheme/layouts/index.html Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt rhoncus nulla, non cursus tellus fringilla vel. Fusce porta diam vel lacus vehicula placerat. Phasellus aliquam posuere ultrices. Ut aliquet nunc velit, maximus rhoncus urna pretium id.</description>
+    </item>
+  </channel>
+</rss>
