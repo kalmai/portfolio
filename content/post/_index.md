@@ -2,6 +2,6 @@
 aliases = ["posts", "articles", "blog", "showcase", "docs"]
 title = "Posts"
 author = "Hugo Authors"
-description = "Example posts demonstrating hugo's markup features"
+description = "Some quick reads about cool stuff."
 tags = ["index"]
 +++

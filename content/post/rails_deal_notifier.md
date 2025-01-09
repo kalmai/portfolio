@@ -3,18 +3,6 @@ author = "Zachary Kolker"
 title = "Grokking Rails"
 date = "2025-01-07"
 description = "My journey towards a better understanding of my favorite framework."
-tags = [
-    "markdown",
-    "css",
-    "html",
-]
-categories = [
-    "themes",
-    "syntax",
-]
-series = ["Themes Guide"]
-aliases = ["migrate-from-jekyl"]
-toc = true
 +++
 
 Notify myself and other users who sign up when they can act upon free non-gambling related game-day promotions.
@@ -31,13 +19,13 @@ If you would like to discuss my passion project of getting a car wash for free, 
 
 ## Technologies Used
 
-{{< badge text="ruby" icon="ruby" >}}
-{{< badge text="rails" icon="rails" >}}
-{{< badge text="postgres" icon="postgres" >}}
-{{< badge text="redis" icon="redis" >}}
-{{< badge text="docker" icon="docker" >}}
-{{< badge text="sendgrid" icon="sendgrid" >}}
 {{< badge text="aws" icon="aws" >}}
+{{< badge text="docker" icon="docker" >}}
+{{< badge text="postgres" icon="postgres" >}}
+{{< badge text="rails" icon="rails" >}}
+{{< badge text="redis" icon="redis" >}}
+{{< badge text="ruby" icon="ruby" >}}
+{{< badge text="sendgrid" icon="sendgrid" >}}
 
 ## Links
 
