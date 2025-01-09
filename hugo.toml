@@ -16,6 +16,10 @@ sectionPagesMenu = "main"
 [params]
 noindex = false
 
+[params.resume]
+# located in ./static/
+file = "ZacharyKolker_SoftwareDeveloper.pdf"
+
 [params.theme]
 palette = "base16-dark"
 
