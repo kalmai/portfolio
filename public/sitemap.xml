@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/portfolio/post/another_portfolio_refresh/</loc>
+    <loc>https://kalmai.github.io/portfolio/post/another_portfolio_refresh/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/index/</loc>
+    <loc>https://kalmai.github.io/portfolio/tags/index/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/</loc>
+    <loc>https://kalmai.github.io/portfolio/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/post/</loc>
+    <loc>https://kalmai.github.io/portfolio/post/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/tags/</loc>
+    <loc>https://kalmai.github.io/portfolio/tags/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/about/</loc>
+    <loc>https://kalmai.github.io/portfolio/about/</loc>
     <lastmod>2025-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/post/rails_deal_notifier/</loc>
+    <loc>https://kalmai.github.io/portfolio/post/rails_deal_notifier/</loc>
     <lastmod>2025-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portfolio/categories/</loc>
+    <loc>https://kalmai.github.io/portfolio/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/portfolio/series/</loc>
+    <loc>https://kalmai.github.io/portfolio/series/</loc>
   </url>
 </urlset>
