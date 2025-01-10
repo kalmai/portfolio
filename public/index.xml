@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>© [kalmai](https://kalmai.github.io/portfolio/)</copyright>
-    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Another Portfolio Refresh</title>
+      <link>http://localhost:1313/portfolio/post/another_portfolio_refresh/</link>
+      <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/post/another_portfolio_refresh/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;http://localhost:1313/portfolio/portfolio/reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;A portfolio site is a must as a developer. As we grow as engineers, our portfolios must adjust as well. Tempting as it may be to hop on the new Javascript framework for your refresh, maybe it is best to just keep it simple and beautiful.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/portfolio/about/</link>

@@ -7,9 +7,6 @@ copyright = "© [kalmai](https://kalmai.github.io/portfolio/)"
 paginate = 3
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
@@ -18,22 +15,12 @@ sectionPagesMenu = "main"
 noindex = false
 
 [languages]
-# https://gohugo.io/methods/page/alltranslations/
-# [languages.de]
-#   contentDir = 'content/de'
-#   languageCode = 'de-DE'
-#   languageName = 'Deutsch'
-#   weight = 2
+  # https://gohugo.io/methods/page/alltranslations/
   [languages.en]
     contentDir = 'content'
     languageCode = 'en-US'
     languageName = 'english'
     weight = 1
-# [languages.fr]
-#   contentDir = 'content/fr'
-#   languageCode = 'fr-FR'
-#   languageName = 'Français'
-#   weight = 3
 
 [params.resume]
 # located in ./static/
@@ -49,7 +36,7 @@ description = "ruby programming language enjoyer"
 # unicode/emoji logo:
 logo = "飛騨"
 # or use an image:
-# logo_image = "images/rice.svg"
+# logo_image = "image/location.png"
 
 # Sidebar: social links
 # Available icon sets:
@@ -89,11 +76,3 @@ unsafe = true
     startLevel = 2
     endLevel   = 3
     ordered    = true
-
-[services]
-
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
