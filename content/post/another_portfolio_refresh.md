@@ -5,7 +5,7 @@ date = "2025-01-09"
 description = "Gravitating towards a maintainable portfolio that looks and feels good."
 +++
 
-<link rel="stylesheet" href="/portfolio/reactive_image.css" />
+<link rel="stylesheet" href="/reactive_image.css" />
 
 A portfolio site is a must as a developer. As we grow as engineers, our portfolios must adjust as well. Tempting as it may be to hop on the new Javascript framework for your refresh, maybe it is best to just keep it simple and beautiful.
 
@@ -20,9 +20,9 @@ During this refresh I also took a stroll down memory lane and reflected upon my 
 ## My old React portfolio:
 ### 2020-09-02:2021-05-30
 
-<img src="/portfolio/react-portfolio.png" alt='old react porfolio'>
+<img src='/react-portfolio.png' alt='old react porfolio'>
 <br/>
-Relied on creating a whole new JavaScript file with a non-intuitive function definition which returned some HTML which we all *love* manually editing for blog posts.
+Relied on creating a whole new JavaScript file with a non-intuitive function definition which returned some HTML which we all <em>love</em> manually editing for blog posts.
 
 Logos were also just sourced directly from URLs which can change or get removed resulting in some unprofessional looking alternative text being displayed where the logo was supposed to live. Taught me an important lesson about saving images into a `/assets` directory or equivalent.
 
@@ -30,10 +30,10 @@ During job hunting season, I often felt like the website did not really reflect 
 
 ---
 
-## Flash Card App
+## Flash Card App:
 ### 2020-09-21:2021-10-07
 
-<img src="/portfolio/loading-page.gif" alt='infinite loading of dead heroku app asset'>
+<img src='/loading-page.gif' alt='infinite loading of dead heroku app asset' />
 <br/>
 RIP Heroku's free tier. I hosted a lot of sites on there for various projects including my first flash-card application which I used to study programming terminology fresh out of bootcamp. The Vue page still works, however the backend written in Java that was hosted on Heroku has perished decimating my flash-card deck. A truly regrettable loss to society.
 
@@ -41,15 +41,15 @@ In all seriousness I still kinda like the Vue page for the raw utilitarian vibes
 
 ---
 
-## My First Web App
-### 2019-??-??:2020-??-??
+## My First Web App:
+### 2019-\?\?-\?\?:2020-??-\?\?
 
 <br/>
-When I was just getting started with web development, I was really encouraged by my friend to whip up my own website following [freeCodeCamp](https://www.freecodecamp.org/)'s guides. I made an amount of progress before enrolling in Tech Elevator.
+When I was just getting started with web development, I was really encouraged by my friend to whip up my own website following <a href="https://www.freecodecamp.org/">freeCodeCamp</a>'s guides. I made an amount of progress before enrolling in Tech Elevator.
 
 Most regrettably, I overwrote the Git history if memory serves. I might have an old copy of it on a hard drive, but doubt it will turn on anymore.
 
-So I do not have a picture, *but* imagine a 90's era website and that should get you most of the way there.
+So I do not have a picture, <em>but</em> imagine a 90's era website and that should get you most of the way there.
 
 ## Technologies Used
 

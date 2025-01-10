@@ -3,10 +3,14 @@ languageCode = 'en-us'
 title = 'kalmai'
 theme = ['hugo-shortcode-roneo-button-icon-badge', 'risotto']
 copyright = "© [kalmai](https://kalmai.github.io/portfolio/)"
+relativeURLs = true
 
 paginate = 3
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
