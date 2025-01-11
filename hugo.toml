@@ -28,7 +28,7 @@ noindex = false
 
 [params.resume]
 # located in ./static/
-file = "portfolio/ZacharyKolker_SoftwareDeveloper.pdf"
+file = "ZacharyKolker_SoftwareDeveloper.pdf"
 
 [params.theme]
 palette = "base16-dark"
