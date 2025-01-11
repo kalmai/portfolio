@@ -14,7 +14,7 @@
       <link>https://kalmai.github.io/portfolio/post/another_portfolio_refresh/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://kalmai.github.io/portfolio/post/another_portfolio_refresh/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;../reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;A portfolio site is a must as a developer. As we grow as engineers, our portfolios must adjust as well. Tempting as it may be to hop on the new Javascript framework for your refresh, maybe it is best to just keep it simple and beautiful.&lt;/p&gt;</description>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;../reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;A portfolio site is a must as a developer. As we grow as engineers, our portfolios must adjust as well. Tempting as it may be to hop on the new Javascript framework for your refresh, maybe it is best to just &lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;keep it simple stupid&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grokking Rails</title>
