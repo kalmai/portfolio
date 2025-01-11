@@ -30,6 +30,13 @@ noindex = false
 # located in ./static/
 file = "ZacharyKolker_SoftwareDeveloper.pdf"
 
+[params.preview]
+title = 'greetings mother'
+image = 'zach-greeting-preview.jpg'
+description = 'wowie zowie this is neato'
+imageWidth = 1200
+imageHeight = 627
+
 [params.theme]
 palette = "base16-dark"
 
