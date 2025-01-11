@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><title>Down the Clicky Rabbit Hole &ndash; kalmai</title>
+<meta name="description" content="ruby programming language enjoyer">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+<meta property="og:title" content="Zachary Kolker - Kalmai - Portfolio"/>
+<meta property="og:image" content="https://kalmai.github.io/portfolio/zach-greeting-preview.jpg"/>
+<meta property="og:description" content="Check out my subjectively nice portfolio site!"/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627"/>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://kalmai.github.io/portfolio/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="https://kalmai.github.io/portfolio/css/risotto.css">
+<link rel="stylesheet" href="https://kalmai.github.io/portfolio/css/custom.css">
+
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://kalmai.github.io/portfolio/favicon-32x32.png">
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="https://kalmai.github.io/portfolio/" class="page__logo-inner">kalmai</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="https://kalmai.github.io/portfolio/about/" title="About">About</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="https://kalmai.github.io/portfolio/post/" title="Posts">Posts</a></li>
+    
+    <li class="main-nav__item"><a href="../../ZacharyKolker_SoftwareDeveloper.pdf" download>resume</a></li>
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Down the Clicky Rabbit Hole</h1>
+    </header>
+    <div class="content__body">
+        <p>Pretty early on in life I found myself chronically on the web. On my right, my mouse, my left, my keyboard, and the world at my fingertips.</p>
+<p>Most of our choices for keyboards were made for us by our guardians, schools, or laptop manufacturers. This was not any different for myself until I made the mistake of being a lurker on <a href="https://www.reddit.com/r/MechanicalKeyboards/">r/mk</a>. Here I was introduced to the vast, insane, and eye wateringly expensive world of custom keyboards. I did not realize at the time this was my first step into circles of keyboard hell.</p>
+<p>Just a few years ago custom keyboards kits were not as much like the lego kits as they are nowadays. Keyboard cases were just the starting line and sourcing all the components and then finally soldering up your <a href="https://en.wikipedia.org/wiki/Printed_circuit_board">PCB</a> and then using it would seem like the end of the race, but wait, there&rsquo;s more! <a href="javascript:new Audio('/portfolio/but-wait-theres-more.mp3').play()"><i title="scary movie quote sound" class="fa-solid fa-play"></i></a></p>
+<p>There are magic keycodes, additional layers, mouse keys, and custom functions that are all available with <a href="https://qmk.fm/">QMK</a> compatible keyboards. Pretty early on in my career as a software developer I received an Apple device. Being a Windows user my whole life I had become very accustomed to never, EVER, pressing the Windows key. So much so that I often ordered keyboard cases that had blockers over the location, referred to as WKL keyboards (&lsquo;winkey&rsquo;-less).</p>
+<p>In my quest to make my amazing custom keyboard swap the ALT key with a WIN key at will, I had to learn how to compile a <code>.hex</code> file to flash to my board.</p>
+<p>But what does that even mean?</p>
+<p>For those non-anointed, which included me at the time, learning through fire.</p>
+<p>For brevity, I have simplified my findings below and it may not apply in your situation:</p>
+<ul>
+<li>pull down the open-source project from <a href="https://github.com/qmk/qmk_firmware">GitHub</a></li>
+<li>find your specific keyboard (if uploaded) among the thousands of keyboards directories</li>
+<li>edit the <code>rules.mk</code> file to allow for the desired modification for your specific keyboard</li>
+<li>compile the firmware via the make command</li>
+<li>locate your compiled <code>.hex</code> file for flashing</li>
+<li>ensure that you have the <a href="https://github.com/qmk/qmk_toolbox">flashing GUI</a> installed (or flash via Linux CLI)</li>
+<li>open the flashing GUI and put your PCB in bootloader mode (hitting the reset button or shorting the connection)</li>
+<li>FINALLY, we should have the desired changes</li>
+</ul>
+<p>All of this suffering was in the effort to attain the magical <code>QK_MAGIC_SWAP_LALT_LGUI</code>, or <code>AG_LSWP</code> for short, key.</p>
+<p>Tools such as <a href="https://www.caniusevia.com/">VIA</a> make the above irrelevant. We can simply use the <code>QK_MAGIC_SWAP_LALT_LGUI</code> key-hexcode <code>0x7016</code> and take a massive step across my pool of suffering.</p>
+<p>Quest complete, but does all of this make me type any faster?</p>
+<p>Haha, no.</p>
+<h2 id="collection">Collection</h2>
+<p><img alt="keyboard collection" src="../../keyboard_collection.jpg"></p>
+<h2 id="technologies-used">Technologies Used</h2>
+
+
+
+
+
+<style type="text/css">
+
+        .badge {
+
+          display: inline-block;
+          text-align: left;
+          position: relative;
+          top: -4px;
+          color: #4a4c4d;
+          background: #e7f2fa;
+          font-size: 14px;
+          font-weight: 600;
+          text-transform: uppercase;
+          padding: 0px 20px 8px 20px;
+          margin: 6px 6px 0 0;
+          border-radius: 8px;
+          white-space: nowrap;
+        }
+
+        .badge-medium {
+          
+        }
+
+        .badge svg {
+          filter: saturate(85%);
+          position: relative;
+          top: 7px;
+          left: -4px;
+          width: 25px;
+          height: 25px;
+          margin-right: 5px;
+        }
+
+        .badge-button {
+            transform: scale(1);
+            transition: all 0.3s ease;
+        }
+
+        .badge-button:hover {
+          transform: scale(1.1);
+          transition: all 0.3s ease;
+        }
+
+        .badge-group {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+
+
+
+    </style>
+
+
+
+
+
+  <span aria-label="bash" class="badge ">
+    <span aria-hidden="true"><svg viewBox="0 0 128 128">
+  <path fill="none" d="M4.24 4.24h119.53v119.53H4.24z"></path>
+  <path fill="#293138"
+    d="M109.01 28.64L71.28 6.24c-2.25-1.33-4.77-2-7.28-2s-5.03.67-7.28 2.01l-37.74 22.4c-4.5 2.67-7.28 7.61-7.28 12.96v44.8c0 5.35 2.77 10.29 7.28 12.96l37.73 22.4c2.25 1.34 4.76 2 7.28 2 2.51 0 5.03-.67 7.28-2l37.74-22.4c4.5-2.67 7.28-7.62 7.28-12.96V41.6c0-5.34-2.77-10.29-7.28-12.96zM79.79 98.59l.06 3.22c0 .39-.25.83-.55.99l-1.91 1.1c-.3.15-.56-.03-.56-.42l-.03-3.17c-1.63.68-3.29.84-4.34.42-.2-.08-.29-.37-.21-.71l.69-2.91c.06-.23.18-.46.34-.6.06-.06.12-.1.18-.13.11-.06.22-.07.31-.03 1.14.38 2.59.2 3.99-.5 1.78-.9 2.97-2.72 2.95-4.52-.02-1.64-.9-2.31-3.05-2.33-2.74.01-5.3-.53-5.34-4.57-.03-3.32 1.69-6.78 4.43-8.96l-.03-3.25c0-.4.24-.84.55-1l1.85-1.18c.3-.15.56.04.56.43l.03 3.25c1.36-.54 2.54-.69 3.61-.44.23.06.34.38.24.75l-.72 2.88c-.06.22-.18.44-.33.58a.77.77 0 01-.19.14c-.1.05-.19.06-.28.05-.49-.11-1.65-.36-3.48.56-1.92.97-2.59 2.64-2.58 3.88.02 1.48.77 1.93 3.39 1.97 3.49.06 4.99 1.58 5.03 5.09.05 3.44-1.79 7.15-4.61 9.41zm26.34-60.5l-35.7 22.05c-4.45 2.6-7.73 5.52-7.74 10.89v43.99c0 3.21 1.3 5.29 3.29 5.9-.65.11-1.32.19-1.98.19-2.09 0-4.15-.57-5.96-1.64l-37.73-22.4c-3.69-2.19-5.98-6.28-5.98-10.67V41.6c0-4.39 2.29-8.48 5.98-10.67l37.74-22.4c1.81-1.07 3.87-1.64 5.96-1.64s4.15.57 5.96 1.64l37.74 22.4c3.11 1.85 5.21 5.04 5.8 8.63-1.27-2.67-4.09-3.39-7.38-1.47z">
+  </path>
+  <path fill="#4FA847"
+    d="M99.12 90.73l-9.4 5.62c-.25.15-.43.31-.43.61v2.46c0 .3.2.43.45.28l9.54-5.8c.25-.15.29-.42.29-.72v-2.17c0-.3-.2-.42-.45-.28z">
+  </path>
+</svg></span>
+    <span>bash</span>
+  </span>
+<h2 id="special-thanks">Special thanks</h2>
+<ul>
+<li><a href="https://bastardkb.com/discord">bastardkb community</a></li>
+<li><a href="https://github.com/drashna">drashna</a></li>
+<li><a href="https://discord.com/invite/qmk">qmk community</a></li>
+</ul>
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <span class="about__logo" role="img">飛騨</span>&nbsp;
+    
+<h1 class="about__title">zachary kolker</h1>
+<p class="about__description">ruby programming language enjoyer</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/kalmai" rel="me" aria-label="github" title="github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:zacharykolker93@gmail.com" rel="me" aria-label="email" title="email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://www.linkedin.com/in/zachary-kolker" rel="me" aria-label="linkedin" title="linkedin"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>An introspective on my relationship with keyboards.</p>
+    
+        <p>
+            By Zachary Kolker, 
+            2025-01-11
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b>english</b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">© <a href="https://kalmai.github.io/portfolio/">kalmai</a></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>

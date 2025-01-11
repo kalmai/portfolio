@@ -5,7 +5,7 @@ title = "zachary kolker"
 <link rel="stylesheet" href="reactive_image.css" />
 
 <img src='zach-greeting.jpg' alt='zach greeting you'>
-<p><a href="javascript:new Audio('hello-there.ogg').play()">Hello there!</a></p>
+<p>Hello there! <a href="javascript:new Audio('hello-there.ogg').play()"><i title="star wars quote sound" class="fa-solid fa-play"></i></a></p>
 
 I'm Zach, a passionate Software Engineer who carefully crafts maintainable code that is secure, efficient, and actually delivers.
 
