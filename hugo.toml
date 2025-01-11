@@ -31,9 +31,9 @@ noindex = false
 file = "ZacharyKolker_SoftwareDeveloper.pdf"
 
 [params.preview]
-title = 'greetings mother'
+title = 'Zachary Kolker - Kalmai - Portfolio'
 image = 'zach-greeting-preview.jpg'
-description = 'wowie zowie this is neato'
+description = 'Check out my subjectively nice portfolio site!'
 imageWidth = 1200
 imageHeight = 627
 
