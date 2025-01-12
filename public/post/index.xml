@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on kalmai</title>
-    <link>https://kalmai.github.io/portfolio/post/</link>
+    <link>http://localhost:1313/portfolio/post/</link>
     <description>Recent content in Posts on kalmai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>© [kalmai](https://kalmai.github.io/portfolio/)</copyright>
     <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kalmai.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Down the Clicky Rabbit Hole</title>
-      <link>https://kalmai.github.io/portfolio/post/down_the_clicky_rabbit_hole/</link>
+      <link>http://localhost:1313/portfolio/post/down_the_clicky_rabbit_hole/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://kalmai.github.io/portfolio/post/down_the_clicky_rabbit_hole/</guid>
+      <guid>http://localhost:1313/portfolio/post/down_the_clicky_rabbit_hole/</guid>
       <description>&lt;p&gt;Pretty early on in life I found myself chronically on the web. On my right, my mouse, my left, my keyboard, and the world at my fingertips.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Another Portfolio Refresh</title>
-      <link>https://kalmai.github.io/portfolio/post/another_portfolio_refresh/</link>
+      <link>http://localhost:1313/portfolio/post/another_portfolio_refresh/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://kalmai.github.io/portfolio/post/another_portfolio_refresh/</guid>
+      <guid>http://localhost:1313/portfolio/post/another_portfolio_refresh/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;../reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;A portfolio site is a must as a developer. As we grow as engineers, our portfolios must adjust as well. Tempting as it may be to hop on the new Javascript framework for your refresh, maybe it is best to just &lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;keep it simple stupid&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grokking Rails</title>
-      <link>https://kalmai.github.io/portfolio/post/rails_deal_notifier/</link>
+      <link>http://localhost:1313/portfolio/post/rails_deal_notifier/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://kalmai.github.io/portfolio/post/rails_deal_notifier/</guid>
+      <guid>http://localhost:1313/portfolio/post/rails_deal_notifier/</guid>
       <description>&lt;p&gt;Notify myself and other users who sign up when they can act upon free non-gambling related game-day promotions.&lt;/p&gt;</description>
     </item>
   </channel>

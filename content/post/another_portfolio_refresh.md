@@ -48,6 +48,7 @@ In all seriousness I still kinda like the Vue page for the raw utilitarian vibes
 ## My First Web App:
 ### 2019-\?\?-\?\?:2020-??-\?\?
 
+<img src='/ancient.png' alt='ancient beautiful raw html' />
 <br>
 When I was just getting started with web development, I was really encouraged by my friend to whip up my own website following <a href="https://www.freecodecamp.org/">freeCodeCamp</a>'s guides. I made an amount of progress before enrolling in Tech Elevator.
 
@@ -56,7 +57,10 @@ When I was just getting started with web development, I was really encouraged by
 Most regrettably, I overwrote the Git history if memory serves. I might have an old copy of it on a hard drive, but doubt it will turn on anymore.
 <br>
 <br>
-So I do not have a picture, <em>but</em> imagine a 90's era website and that should get you most of the way there.
+<s>So I do not have a picture, <em>but</em> imagine a 90's era website and that should get you most of the way there.</s>
+<br>
+<br>
+Found a screenshot of the beaut'.
 
 ## Technologies Used
 
