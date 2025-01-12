@@ -40,7 +40,7 @@ Quest complete, but does all of this make me type any faster?
 Haha, no.
 
 ## Collection
-![keyboard collection](/keyboard_collection.jpg)
+![keyboard collection](/keyboard_collection_2.jpg)
 
 ## Technologies Used
 
