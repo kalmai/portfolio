@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Index on kalmai</title>
-    <link>https://kalmai.github.io/portfolio/tags/index/</link>
+    <link>http://localhost:1313/portfolio/tags/index/</link>
     <description>Recent content in Index on kalmai</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [kalmai](https://kalmai.github.io/portfolio/)</copyright>
     <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kalmai.github.io/portfolio/tags/index/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/portfolio/tags/index/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Posts</title>
-      <link>https://kalmai.github.io/portfolio/posts/</link>
+      <link>http://localhost:1313/portfolio/posts/</link>
       <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://kalmai.github.io/portfolio/posts/</guid>
+      <guid>http://localhost:1313/portfolio/posts/</guid>
       <description></description>
     </item>
   </channel>

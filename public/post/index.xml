@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [kalmai](https://kalmai.github.io/portfolio/)</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Man Shouting at Clouds</title>
+      <link>http://localhost:1313/portfolio/post/man_shouting_at_clouds/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/post/man_shouting_at_clouds/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;../reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;I too made a new years resolution, spin up a production server for &lt;a href=&#34;../posts/grokking_rails/&#34;&gt;my side project&lt;/a&gt;. My journey into free/freemium cloud hosting had multiple stops with mixed results.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Down the Clicky Rabbit Hole</title>
       <link>http://localhost:1313/portfolio/post/down_the_clicky_rabbit_hole/</link>
@@ -25,9 +32,9 @@
     </item>
     <item>
       <title>Grokking Rails</title>
-      <link>http://localhost:1313/portfolio/post/rails_deal_notifier/</link>
+      <link>http://localhost:1313/portfolio/post/grokking_rails/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/post/rails_deal_notifier/</guid>
+      <guid>http://localhost:1313/portfolio/post/grokking_rails/</guid>
       <description>&lt;p&gt;Notify myself and other users who sign up when they can act upon free non-gambling related game-day promotions.&lt;/p&gt;</description>
     </item>
   </channel>
