@@ -1,0 +1,10 @@
+- install go https://go.dev/doc/install
+  - if updating go version `rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.2.linux-amd64.tar.gz`
+  - execute `tar -xvzf c <downloaded .tar.gz file location>`
+  - ensure it's installed right with `go version`
+- `sudo pacman -S hugo` or `go install github.com/gohugoio/hugo@latest`
+  - if building from source, make sure `export PATH=$PATH:$(go env GOPATH)/bin` is set
+- clone
+- cd into repo
+- execute `git submodule update --init --recursive` to make sure submodules are present
+- *finally* we can run `hugo server`
