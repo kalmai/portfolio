@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on kalmai</title>
-    <link>http://localhost:1313/portfolio/post/</link>
+    <link>https://kalmai.github.io/portfolio/posts/</link>
     <description>Recent content in Posts on kalmai</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <copyright>© [kalmai](https://kalmai.github.io/portfolio/)</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kalmai.github.io/portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Man Shouting at Clouds</title>
+      <link>https://kalmai.github.io/portfolio/posts/man_shouting_at_clouds/</link>
+      <pubDate>Sat, 26 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://kalmai.github.io/portfolio/posts/man_shouting_at_clouds/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;../reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;I too made a new years resolution, spin up a production server for &lt;a href=&#34;../posts/grokking_rails/&#34;&gt;my side project&lt;/a&gt;. My journey into free/freemium cloud hosting had multiple stops with mixed results.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Down the Clicky Rabbit Hole</title>
-      <link>http://localhost:1313/portfolio/post/down_the_clicky_rabbit_hole/</link>
+      <link>https://kalmai.github.io/portfolio/posts/down_the_clicky_rabbit_hole/</link>
       <pubDate>Sat, 11 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/post/down_the_clicky_rabbit_hole/</guid>
+      <guid>https://kalmai.github.io/portfolio/posts/down_the_clicky_rabbit_hole/</guid>
       <description>&lt;p&gt;Pretty early on in life I found myself chronically on the web. On my right, my mouse, my left, my keyboard, and the world at my fingertips.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Another Portfolio Refresh</title>
-      <link>http://localhost:1313/portfolio/post/another_portfolio_refresh/</link>
+      <link>https://kalmai.github.io/portfolio/posts/another_portfolio_refresh/</link>
       <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/post/another_portfolio_refresh/</guid>
+      <guid>https://kalmai.github.io/portfolio/posts/another_portfolio_refresh/</guid>
       <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;../reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;A portfolio site is a must as a developer. As we grow as engineers, our portfolios must adjust as well. Tempting as it may be to hop on the new Javascript framework for your refresh, maybe it is best to just &lt;a href=&#34;https://en.wikipedia.org/wiki/KISS_principle&#34;&gt;keep it simple stupid&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grokking Rails</title>
-      <link>http://localhost:1313/portfolio/post/rails_deal_notifier/</link>
+      <link>https://kalmai.github.io/portfolio/posts/grokking_rails/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/portfolio/post/rails_deal_notifier/</guid>
+      <guid>https://kalmai.github.io/portfolio/posts/grokking_rails/</guid>
       <description>&lt;p&gt;Notify myself and other users who sign up when they can act upon free non-gambling related game-day promotions.&lt;/p&gt;</description>
     </item>
   </channel>

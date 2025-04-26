@@ -5,7 +5,16 @@ theme = ['hugo-shortcode-roneo-button-icon-badge', 'risotto']
 copyright = "© [kalmai](https://kalmai.github.io/portfolio/)"
 relativeURLs = true
 
-paginate = 3
+[menus]
+  [[menus.main]]
+    name = 'about'
+    pageRef = '/about/'
+    weight = 10
+  [[menus.main]]
+    name = 'posts'
+    pageRef = '/posts/'
+    weight = 20
+
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
@@ -14,6 +23,9 @@ ignoreErrors = ["error-remote-getjson"]
 
 # Automatically add content sections to main menu
 sectionPagesMenu = "main"
+
+[pagination]
+pagerSize = 3
 
 [params]
 noindex = false
