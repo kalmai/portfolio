@@ -11,4 +11,4 @@ I'm Zach, a passionate Software Engineer who carefully crafts maintainable code 
 
 Outside of work I spend my time <code>sudo pacman -Syu</code>ing my personal devices, hanging out with my wife, designing and 3D printing knick-knacks, handwiring microcontrollers for keyboards, and of course being bad at video games.
 
-Check out my latest project <a href="posts/grokking_rails/">here</a> and if you like what you see, feel free to reach out!
+Check out my latest project <a href="https://lemming-trusty-dane.ngrok-free.app/">here</a> and if you like what you see, feel free to reach out!

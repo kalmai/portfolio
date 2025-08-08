@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head><script src="/portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=portfolio/livereload" data-no-instant defer></script><title>Ship it! &ndash; kalmai</title>
+<meta name="description" content="ruby programming language enjoyer">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8"/>
+
+<meta property="og:title" content="Zachary Kolker - Kalmai - Portfolio"/>
+<meta property="og:image" content="http://localhost:1313/portfolio/zach-greeting-preview.jpg"/>
+<meta property="og:description" content="Check out my subjectively nice portfolio site!"/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="627"/>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" integrity="sha512-IW0nhlW5MgNydsXJO40En2EoCkTTjZhI3yuODrZIc8cQ4h1XcF53PsqDHa09NqnkXuIe0Oiyyj171BqZFwISBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<link rel="stylesheet" href="http://localhost:1313/portfolio/css/palettes/base16-dark.css">
+<link rel="stylesheet" href="http://localhost:1313/portfolio/css/risotto.css">
+<link rel="stylesheet" href="http://localhost:1313/portfolio/css/custom.css">
+
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/portfolio/favicon-32x32.png">
+
+
+
+
+
+
+</head>
+
+    <body>
+        <div class="page">
+
+            <header class="page__header"><nav class="page__nav main-nav">
+    <ul>
+      <li class="nomarker"><h1 class="page__logo"><a href="http://localhost:1313/portfolio/" class="page__logo-inner">kalmai</a></h1></li>
+    
+    
+    <li class="main-nav__item"><a class="nav-main-item" href="http://localhost:1313/portfolio/about/" title="About">about</a></li>
+    
+    <li class="main-nav__item"><a class="nav-main-item active" href="http://localhost:1313/portfolio/posts/" title="Posts">posts</a></li>
+    
+    <li class="main-nav__item"><a href="../../ZacharyKolker_SoftwareDeveloper.pdf" download>resume</a></li>
+    </ul>
+</nav>
+
+</header>
+
+            <section class="page__body">
+    <header class="content__header">
+        <h1>Ship it!</h1>
+    </header>
+    <div class="content__body">
+        <p>My ship had run ashore, expired AWS credits, a truly defeated morale, and no DevOps engineers in sight.</p>
+<p>Had my journey to the land of free car washes and pizza really come to an end?</p>
+<p>For some time it felt that way bouncing between multiple side quests. At the time I did not realize that all directions were in reality pointing towards my north star, the lemming.</p>
+<p>Rolling back to our cold start, I was hopeless, damned cloud fuel was running out and I had not made any meaningful progress on setting up our production environment. Without success I was using <a href="https://kamal-deploy.org/">Kamal</a> to deploy to my AWS EC2 instance. Fed up and at my wits&rsquo; end, I switched to using <a href="https://github.com/capistrano/capistrano">Capistrano</a> in hopes that it would be the heavy handed approach I thought I needed. This was plainly an attempt to address my cloud sickness symptoms, not the actual cause. Seeking any relief from the pain, my feeble gaze settled upon my helpless <a href="https://pi-hole.net/">Pi-hole</a> sitting next to my router.</p>
+<p>This Pi-hole had gone through it, a few too many router factory resets and a crazed owner who thought removing the CPU fan was a good solution to fan noise. Assuming anything other than Pi-hole running on the machine would result in a smoldering pile of ash, I began tinkering away with my 3D printer to incorporate an old computer fan into the case. In retrospect, buying or cleaning the fan would have been more economical versus the time spent in <a href="https://www.autodesk.com/products/fusion-360/personal">fusion-360</a> and pile of prototypes chilling on my floor. Our Pi-hole with a breath of fresh air was finally ready to host <a href="https://store.steampowered.com/app/108600/Project_Zomboid/">Project Zomboid</a>?</p>
+<p>This was actually the catalyst masquerading as a side quest. It showed me that like <a href="https://youtu.be/-cEn_83zRFw?si=pCXbMwwJIwv87usQ">DHH mentioned</a>, servers really are not that scary. In a small amount of time I had setup a working server.</p>
+<p>Brimming with confidence I decided that it was time to resume the main quest!</p>
+<p>Here we go again, I began by reflecting on my experiences deploying with Kamal and Capistrano and opted for Kamal since it required less time in the weeds setting up directories and such on the server. First, I had issues connecting to the server to even setup Kamal on the host machine. Turns out I had the IPv4 address in there when it needed the name of the host machine. Second, postgres was not happy with me trying to mount it to the host machine, which led to me refactoring my application to use <a href="https://github.com/basecamp/kamal/discussions/596">sqlite3</a>. Third, my database seeding script is not very robust and breaks every time the MLS wiki is updated, yeah, you guessed it. Fourth, <a href="https://sendgrid.com/en-us">SendGrid</a> had discontinued their free tier and I happened upon <a href="https://blog.julik.nl/2025/07/html-emails-the-hard-way">this post</a> mentioned in <a href="https://rubyweekly.com/">Ruby Weekly</a> that helped me avoid integrating with another SMTP provider that would put a frown on my face. Finally and surprisingly easiest of all was just setting up <a href="https://ngrok.com/">ngrok</a> on the host machine to serve our free static domain.</p>
+<p>I could finally &ldquo;ship&rdquo; &hellip; <a href="https://lemming-trusty-dane.ngrok-free.app/">the lemming</a>.</p>
+<p>Excitedly I connected and opened up my rails console to check whether or not the demon kings defeat was nigh, but more importantly get a carwash potentially this weekend.</p>
+<p>Tragically the Columbus Crew&rsquo;s next game was away meaning that the location requirement was not fulfilled and my dirty car dirty much to my wife&rsquo;s dismay.</p>
+    </div>
+    <footer class="content__footer"></footer>
+
+            </section>
+
+            <section class="page__aside">
+                <div class="aside__about">
+<div class="aside__about">
+    <span class="about__logo" role="img">飛騨</span>&nbsp;
+    
+<h1 class="about__title">zachary kolker</h1>
+<p class="about__description">ruby programming language enjoyer</p>
+</div>
+
+
+<ul class="aside__social-links">
+    
+    <li>
+        <a href="https://github.com/kalmai" rel="me" aria-label="github" title="github"><i class="fa-brands fa-github" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="mailto:zacharykolker93@gmail.com" rel="me" aria-label="email" title="email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+    <li>
+        <a href="https://www.linkedin.com/in/zachary-kolker" rel="me" aria-label="linkedin" title="linkedin"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    
+</ul>
+</div>
+                <hr>
+                <div class="aside__content">
+    <p>&#34;It Lives!&#34;</p>
+    
+        <p>
+            By Zachary Kolker, 
+            2025-08-08
+        </p>
+    
+
+    
+
+                </div>
+            </section>
+
+            <footer class="page__footer"><p>
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+    
+    
+      
+      
+          
+            
+            
+                <br/><span class="active">$ echo $LANG<br/><b>english</b></span><br/>
+
+            
+          
+      
+    
+</p>
+<br /><br />
+<p class="copyright">© <a href="https://kalmai.github.io/portfolio/">kalmai</a></p>
+<p class="advertisement">Powered by <a href="https://gohugo.io/">hugo</a> and <a href="https://github.com/joeroe/risotto">risotto</a>.</p>
+</footer>
+
+        </div>
+    </body>
+
+</html>
