@@ -30,4 +30,4 @@ If you would like to discuss my passion project of getting a car wash for free, 
 ## Links
 
 - [repo](https://github.com/kalmai/rails-deal-notifier)
-- [prod](https://github.com/kalmai/rails-deal-notifier) WIP
+- [prod](https://lemming-trusty-dane.ngrok-free.app/)
