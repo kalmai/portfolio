@@ -8,7 +8,7 @@ description = "Rails and Neovim and Rust, oh my!"
 <link rel="stylesheet" href="/reactive_image.css" />
 
 As a wise bug once said,
-<blockquote>"Change... is good" <a href="javascript:(audio=>{audio.volume=0.6;audio.play()})(new Audio('/change-is-good.oga'))"><i title="kha'zix saying change is good" class="fa-solid fa-play"></i></a>
+<blockquote>"Change... is good" <a href="javascript:(audio=>{audio.volume=0.6;audio.play()})(new Audio('/portfolio/change-is-good.oga'))"><i title="kha'zix saying change is good" class="fa-solid fa-play"></i></a>
 
 -- <cite>Kha'Zix</cite>
 </blockquote>

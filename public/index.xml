@@ -14,7 +14,7 @@
       <link>http://localhost:1313/portfolio/posts/major_minor_many_updates/</link>
       <pubDate>Wed, 04 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/portfolio/posts/major_minor_many_updates/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;./reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;As a wise bug once said,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#34;Change... is good&#34; &lt;a href=&#34;javascript:(audio=&gt;{audio.volume=0.6;audio.play()})(new Audio(&#39;/change-is-good.oga&#39;))&#34;&gt;&lt;i title=&#34;kha&#39;zix saying change is good&#34; class=&#34;fa-solid fa-play&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;p&gt;&amp;ndash; &lt;cite&gt;Kha&amp;rsquo;Zix&lt;/cite&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;./reactive_image.css&#34; /&gt;&#xA;&lt;p&gt;As a wise bug once said,&lt;/p&gt;&#xA;&lt;blockquote&gt;&#34;Change... is good&#34; &lt;a href=&#34;javascript:(audio=&gt;{audio.volume=0.6;audio.play()})(new Audio(&#39;/portfolio/change-is-good.oga&#39;))&#34;&gt;&lt;i title=&#34;kha&#39;zix saying change is good&#34; class=&#34;fa-solid fa-play&#34;&gt;&lt;/i&gt;&lt;/a&gt;&#xA;&lt;p&gt;&amp;ndash; &lt;cite&gt;Kha&amp;rsquo;Zix&lt;/cite&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;</description>
     </item>
     <item>
       <title>Ship it!</title>
